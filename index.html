@@ -1,18 +1,45 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Wish you all the love</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href="http://vjs.zencdn.net/5.16.0/video-js.css" rel="stylesheet">
 
-        <!-- Add your site or application content here -->
-        <p>Hello D!</p>    
-    </body>
+		<!------------------------------------------------>
+		<!------------------------------------------------>
+		<!------------------------------------------------>
+		<!-- I SOURCE KOD VAM ISTO ŽELI SVE NAJBOLJE :) -->
+		<!------------------------------------------------>
+		<!------------------------------------------------>
+		<!------------------------------------------------>		
+	</head>
+	<body>
+		<div class="container">
+			<div id="ribbon"></div>
+			<div id="balloons-left"></div>
+			<div id="balloons-right"></div>
+			<div id="wrap" class="wrap">
+				<div class="giftbox">
+					<div class="cover">
+						<div></div>
+					</div>
+					<div class="box"></div>
+				</div>
+				<div class="background">
+                    <div id="video-container">
+    					<video id="my-video" class="video-js" controls preload="auto" data-setup="{}">
+    						<source src="./video/japetic.mp4" type="video/mp4">
+    					</video>
+                    </div>				
+				</div>
+			</div>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+		<script src="http://vjs.zencdn.net/5.16.0/video.js"></script>
+	</body>
 </html>
