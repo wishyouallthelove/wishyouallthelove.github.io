@@ -15,6 +15,7 @@ body {
 #balloons-right { height: 571px; width: 452px; position: absolute; right: 100px; bottom: 120px; }
 
 #video-container { display: none; }
+#message { color: darkblue;  text-align: center; }
 
 
 @media screen and (max-width: 1200px) {
