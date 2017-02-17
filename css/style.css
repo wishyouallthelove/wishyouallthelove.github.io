@@ -10,8 +10,9 @@ body {
 }
 
 #ribbon { background: url(../img/ribbon.png) repeat-x; height: 180px; }
-#balloons-left { height: 595px; width: 402px; position: absolute; left: 0; bottom: -100px; }
-#balloons-right { height: 595px; width: 402px; position: absolute; right: 0; bottom: 0; }
+#footer { background: url(../img/grass.png) repeat-x; height: 64px; bottom: 64px; position: relative; }
+#balloons-left { height: 595px; width: 402px; position: absolute; left: 0; bottom: -130px; }
+#balloons-right { height: 571px; width: 452px; position: absolute; right: 100px; bottom: 120px; }
 
 #video-container { display: none; }
 
@@ -19,11 +20,13 @@ body {
 @media screen and (max-width: 1200px) {
     #balloons-right, #balloons-left { height: 450px; width: 300px; }
     .giftbox { width: 260px!important; height: 200px!important; margin-left: -130px!important; }
+    .giftbox::after { font-size: 34px!important; }
 }
 
 @media screen and (max-width: 900px) {
     #balloons-right, #balloons-left { height: 300px; width: 202px; }
     .giftbox { width: 220px!important; height: 170px!important; margin-left: -110px!important; }
+    .giftbox::after { font-size: 24px!important; }
 }
 
 @media screen and (max-width: 600px) {
@@ -79,7 +82,7 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-    font-size: 24px;
+    font-size: 54px;
     z-index: 1000;
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
