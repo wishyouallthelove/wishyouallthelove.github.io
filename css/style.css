@@ -7,10 +7,9 @@ html, body, .container {
 body {
 	overflow: hidden;
 	background: url(../img/cloudy-sky-background.jpg) repeat-x; 
-	background-size: cover;
 }
 
-#ribbon { width: 100%; }
+#ribbon { background: url(../img/ribbon.png) repeat-x; height: 180px; }
 #balloons-left { height: 595px; width: 402px; position: absolute; left: 0; bottom: -100px; }
 #balloons-right { height: 595px; width: 402px; position: absolute; right: 0; bottom: 0; }
 
@@ -19,8 +18,7 @@ body {
 
 @media screen and (max-width: 1200px) {
 	#balloons-right, #balloons-left { height: 450px; width: 300px; }
-	.giftbox { width: 260px!important; height: 200px!important; left: 54%!important; }	
-	#ribbon { height: 80px; width: 1200px; }
+	.giftbox { width: 260px!important; height: 200px!important; left: 54%!important; }
 }
 
 @media screen and (max-width: 900px) {
