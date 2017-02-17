@@ -71,7 +71,7 @@ body {
 }
 
 .giftbox::after {
-	content: 'Klikni me';
+	content: 'Sretno mladenci';
 	position: absolute;
 	color: #fff;
 	font-family: 'Peralta', serif;
