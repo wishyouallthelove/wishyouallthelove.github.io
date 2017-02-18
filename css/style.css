@@ -57,6 +57,10 @@ body {
     #message { width: 350px; }
 }
 
+@media screen and (orientation:landscape) {
+  .background { margin-top: 0px!important; }
+}
+
 .wrap {
     position: absolute;
     top: 40px;
