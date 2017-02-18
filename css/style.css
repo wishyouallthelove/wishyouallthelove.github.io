@@ -11,21 +11,24 @@ body {
 
 #ribbon { background: url(../img/ribbon.png) repeat-x; height: 180px; }
 #footer { background: url(../img/grass.png) repeat-x; height: 64px; bottom: 64px; position: relative; }
-#balloons-left { height: 595px; width: 402px; position: absolute; left: 0; bottom: -130px; }
+#balloons-left { height: 441px; width: 402px; position: absolute; left: 0; bottom: 0; }
 #balloons-right { height: 571px; width: 452px; position: absolute; right: 100px; bottom: 120px; }
 
 #video-container { display: none; }
-#message { color: darkblue;  text-align: center; }
+#message { color: white; text-align: center; position: relative; width: 480px; }
+#message p { background-color: black; opacity: 0.7; display: inline-block; padding: 5px; }
 
 
 @media screen and (max-width: 1200px) {
-    #balloons-right, #balloons-left { height: 450px; width: 300px; }
+    #balloons-left { height: 360px; width: 330px; }
+    #balloons-right { height: 450px; width: 357px; }
     .giftbox { width: 260px!important; height: 200px!important; margin-left: -130px!important; }
     .giftbox::after { font-size: 34px!important; }
 }
 
 @media screen and (max-width: 900px) {
-    #balloons-right, #balloons-left { height: 300px; width: 202px; }
+    #balloons-left { height: 300px; width: 280px; }
+    #balloons-right { height: 300px; width: 238px; right: 50px; }
     .giftbox { width: 220px!important; height: 170px!important; margin-left: -110px!important; }
     .giftbox::after { font-size: 24px!important; }
 }
@@ -39,14 +42,18 @@ body {
 
 @media screen and (max-width: 520px) {
     #video-container .video-js:not(.vjs-fullscreen) { width: 450px; height: 337px; }
+    #balloons-right { height: 300px; width: 238px; right: 25px; }
+    #message { width: 450px; }
 }
 
 @media screen and (max-width: 450px) {
     #video-container .video-js:not(.vjs-fullscreen) { width: 400px; height: 300px; }    
+    #message { width: 400px; }
 }
 
 @media screen and (max-width: 400px) {
     #video-container .video-js:not(.vjs-fullscreen) { width: 350px; height: 262px; }
+    #message { width: 350px; }
 }
 
 .wrap {
